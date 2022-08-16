@@ -23,7 +23,6 @@ img {
 }
 
 .banner {
-  max-height: 47rem;
   margin-bottom: 1rem;
 }
 
@@ -68,9 +67,6 @@ h4 {
   content: url("6dots.svg");
   margin-right: 1rem;
 }
-
-
-
 
 .content-item {
   display: flex;
@@ -189,15 +185,33 @@ footer {
     display: block;
   }
 
-  .container-text{
+  .container-text {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
   }
 
+  .information {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    align-self: flex-start;
+    padding: 5rem 4rem;
+  }
 
+  .information-item-1 {
+    margin-bottom: 0;
+  }
 
-  .content{
+  .information-group {
+    margin-top: 0;
+    gap: 4rem;
+  }
+
+  .information-item {
+    margin-bottom: 3rem;
+  }
+
+  .content {
     width: 70%;
   }
 }
